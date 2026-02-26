@@ -1,0 +1,22 @@
+-- NOTE --
+replace string "[number]" with your wanted number
+
+add:
+mov ebx, [number]
+mov ecx, [number]
+call _bearAdd
+
+subtract:
+mov ebx, [number]
+mov ecx, [number]
+call _bearSub
+
+multiply:
+mov ebx, [number]
+mov ecx, [number]
+call _bearMul
+
+divide:
+mov ebx, [number]
+mov ecx, [number]
+call _bearDiv

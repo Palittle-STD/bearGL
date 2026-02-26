@@ -1,0 +1,34 @@
+_getInput - gives the program raw input.
+usage:
+call _getInput
+
+_cmpInput - [params : eax] compares the input with the given key codes.
+usage:
+call _cmpInput
+
+mov eax, [code]
+je .function
+
+_bearAdd - [params : ebx, ecx] adds ebx with ecx.
+usage:
+mov ebx, [number]
+mov ecx, [number]
+call _bearAdd
+
+_bearSub - [params : ebx, ecx] subtracts ebx with ecx.
+usage:
+mov ebx, [number]
+mov ecx, [number]
+call _bearSub
+
+_bearMul - [params : ebx, ecx] multiplies ebx with ecx.
+usage:
+mov ebx, [number]
+mov ecx, [number]
+call _bearMul
+
+_bearDiv - [params : ebx, ecx] divides ebx with ecx.
+usage:
+mov ebx, [number]
+mov ecx, [number]
+call _bearDiv
